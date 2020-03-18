@@ -10,6 +10,10 @@ namespace Laboratorio1
     {
         public string Name;
         public string LastName;
+        public Person()//Default constructor
+        {
+        
+        }
         public Person(string name,string lastname)
         {
             this.LastName = lastname;

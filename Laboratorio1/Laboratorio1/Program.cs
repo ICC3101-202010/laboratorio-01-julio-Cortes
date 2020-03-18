@@ -10,11 +10,9 @@ namespace Laboratorio1
     {
         static void Main(string[] args)
         {
-            var person1 = new Person("Juan","Perez");
+            var person1 = new Person("Bob", "Kunga");
             Console.WriteLine(person1.Cachipun());
-            var person2 = new Person("Pedro","Rodriguez");
-            Console.WriteLine(person2.Cachipun());
-            var person3 = new Person();
+            Console.WriteLine(person1.Name + " "+ person1.LastName);           
 
         }
     }
