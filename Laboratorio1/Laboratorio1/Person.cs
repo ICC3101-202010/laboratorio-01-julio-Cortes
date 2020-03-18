@@ -10,10 +10,10 @@ namespace Laboratorio1
     {
         public string Name;
         public string LastName;
-        public void Cachipun()
+        public int Cachipun()
         {
             var random = new Random ();
-            Console.WriteLine (random.Next(0, 2));
+            return random.Next(0, 2);
         }
 
     }

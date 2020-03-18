@@ -13,11 +13,11 @@ namespace Laboratorio1
             var person1 = new Person();
             person1.Name = "Juan";
             person1.LastName = "Perez";
-            person1.Cachipun();
+            Console.WriteLine(person1.Cachipun());
             var person2 = new Person();
             person2.Name = "Pedro";
             person2.LastName = "Rodriguez";
-            person2.Cachipun();
+            Console.WriteLine(person2.Cachipun());
 
         }
     }
