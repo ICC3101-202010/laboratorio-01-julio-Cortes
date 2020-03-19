@@ -14,14 +14,14 @@ namespace Laboratorio1
         {
         
         }
-        public Person(string name,string lastname)
+        public Person(string name,string lastname)//Constructor 
         {
             this.LastName = lastname;
             this.Name = name;
         }
         public int Cachipun()
         {
-            var random = new Random ();
+            Random random = new Random ();
             return random.Next(0, 3);
         }
 
